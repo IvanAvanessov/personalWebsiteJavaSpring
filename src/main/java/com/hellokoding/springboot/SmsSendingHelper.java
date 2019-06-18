@@ -24,6 +24,7 @@ public class SmsSendingHelper {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    	System.out.print("atata");
     	
     } 
 }
