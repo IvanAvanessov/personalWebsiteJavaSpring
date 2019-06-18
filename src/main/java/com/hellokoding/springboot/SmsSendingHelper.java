@@ -10,8 +10,8 @@ public class SmsSendingHelper {
   
     public static void sendSMS(String text) { 
     	NexmoClient client = NexmoClient.builder()
-    	        .apiKey("917c8e66")
-    	        .apiSecret("72a1ChzrVwmGWrGK")
+    	        .apiKey("")
+    	        .apiSecret("")
     	        .build();
     	String messageText = text;
     	TextMessage message = new TextMessage("avanessovru", "447555015501", messageText);
