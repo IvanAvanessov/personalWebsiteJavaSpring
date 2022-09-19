@@ -14,7 +14,7 @@ public class SmsSendingHelper {
     	        .apiSecret("")
     	        .build();
     	String messageText = text;
-    	TextMessage message = new TextMessage("avanessovru", "447555015501", messageText);
+    	TextMessage message = new TextMessage("avanessovru", "111", messageText);
     	try {
 			client.getSmsClient().submitMessage(message);
 		} catch (IOException e) {
